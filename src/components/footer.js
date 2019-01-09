@@ -27,7 +27,7 @@ const Footer = () => (
 						<Emoji emoji="☕" />
 					</p>
 					<p className="is-size-4">
-						By <a href="https://oneworldhackthon.org">One World Hackathon</a>
+						By <a href="https://oneworldhackathon.org">One World Hackathon</a>
 					</p>
 					
 				</div>

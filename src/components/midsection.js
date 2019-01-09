@@ -118,7 +118,7 @@ const Midsection = () => (
 								<div className="content">
 									<h1 className="title is-size-4">Pledge</h1>
 									<p className="subtitle is-size-5">
-										Users will be able to pledge a number of miles they will run during #OWM in order to support our cause. This functionality will be brought to the website by efforts from the people at <a href="https://oneworldhakcathon.org">One World Hackathon</a>.
+										Users will be able to pledge a number of miles they will run during #OWM in order to support our cause. This functionality will be brought to the website by efforts from the people at <a href="https://oneworldhackathon.org">One World Hackathon</a>.
 									</p>
 								</div>
 							</div>

@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { FaGlobeAmericas } from 'react-icons/fa';
 
 import './style.scss';
 import gatsbyLogo from '../images/gatsby-icon.png';
 import bulmaLogo from '../images/bulma-logo.png';
+import ows from '../images/OWS_Logo_WhiteBKG.png';
 
 const Navbar = () => (
 	<div className="hero-head is-hidden-mobile">
@@ -14,8 +16,9 @@ const Navbar = () => (
 						className="navbar-item"
 						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
 					>
-						<img src={gatsbyLogo} alt="Logo-1" />
-						<img src={bulmaLogo} alt="Logo-2" />
+						
+						
+						<img src={ows} alt="Logo" className="logo" />
 					</a>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
@@ -23,12 +26,12 @@ const Navbar = () => (
 						<span className="navbar-item">
 							<a
 								className="button is-danger is-inverted"
-								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
+								href="https://oneworldstrong.org"
 							>
 								<span className="icon">
-									<FaGithub size="fa-2x" />
+									<FaGlobeAmericas size="fa-2x" />
 								</span>
-								<span>Download</span>
+								<span>One World Strong Website</span>
 							</a>
 						</span>
 					</div>

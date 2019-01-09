@@ -5,7 +5,11 @@ import {
 	FaReact,
 	FaMobileAlt,
 	FaRocket,
-	FaOsi
+	FaOsi,
+	FaGlobeAmericas,
+	FaClock,
+	FaBullseye,
+	FaUsers
 } from 'react-icons/fa';
 
 import './style.scss';
@@ -20,15 +24,14 @@ const Midsection = () => (
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
-									<FaSass size="fa-2x" color="#d22780" />
+									<FaGlobeAmericas size="fa-2x" color="#4b833f" />
 								</span>
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Uses Bulma</h1>
+									<h1 className="title is-size-4">What is #OWM?</h1>
 									<p className="subtitle is-size-5">
-										Bulma is an open source CSS framework and used by more than
-										100,000 developers.
+										#OWM is a marathon where teams of participants from around the world will combine their efforts to achieve a total of 26.2 miles (or 42.195km) over a four-day weekend.
 									</p>
 								</div>
 							</div>
@@ -38,16 +41,14 @@ const Midsection = () => (
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
-									<FaHtml5 size="fa-2x" className="has-text-danger" />
+									<FaClock size="fa-2x" className="has-text-danger" />
 								</span>
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">JAMStack Solution</h1>
+									<h1 className="title is-size-4">Location and Dates</h1>
 									<p className="subtitle is-size-5">
-										It’s a new way of building websites and apps that delivers
-										better performance, higher security, lower cost of scaling,
-										and a better developer experience.
+										Global, April 12th - April 15th. The One World Marathon will start on April 12th with the RunJordan Dead Sea Ultra Marathon events, and it will end when the Boston Marathon’s final participant, and our Global Race Director Dave McGillivray crosses the finish line – approximately midnight EST on April 15th.
 									</p>
 								</div>
 							</div>
@@ -57,16 +58,14 @@ const Midsection = () => (
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
-									<FaReact size="fa-2x" color="#5e227f" />
+									<FaBullseye size="fa-2x" color="#5e227f" />
 								</span>
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Gatsby + React?</h1>
+									<h1 className="title is-size-4">Aims</h1>
 									<p className="subtitle is-size-5">
-										Uses Gatsby's version <code>v2</code>, enjoy the power of
-										the latest web technologies. All set up and waiting for you
-										to start building.
+										To reinforce the core principles of connection and cooperation supporting the belief that people around the world should work together toward common goals.
 									</p>
 								</div>
 							</div>
@@ -76,16 +75,14 @@ const Midsection = () => (
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
-									<FaMobileAlt size="fa-2x" color="blue" />
+									<FaUsers size="fa-2x" color="blue" />
 								</span>
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Responsive Design</h1>
+									<h1 className="title is-size-4">Teams</h1>
 									<p className="subtitle is-size-5">
-										Bulma is based on the Flexbox model and built with Sass. The
-										simplest grid system Just add columns, they will resize
-										themselves, like this website.
+										Teams can have any number of members, and, because the one of the main objectives of the event is to connect people across borders and diverse backgrounds, we will encourage teams that represent multiple continents, countries and cultures. For example, schools and individuals in the Middle East can pair with peers in North America, Africa, Europe, Asia, and South America. 
 									</p>
 								</div>
 							</div>
@@ -101,9 +98,9 @@ const Midsection = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Open Source</h1>
+									<h1 className="title is-size-4">Connecting</h1>
 									<p className="subtitle is-size-5">
-										This starter kit is MIT Licensed. Need I say more?
+										Using existing social media and the One World Marathon website, participants can organize, communicate and track the contributions of team members throughout their training and during marathon weekend. They can also use these channels to train together, communicate with one another, share their experiences and spread the marathon’s message of cross-cultural collaboration, interpersonal connection and teamwork.
 										<Emoji emoji="🤑" />
 									</p>
 								</div>
@@ -119,11 +116,9 @@ const Midsection = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Starter Kit</h1>
+									<h1 className="title is-size-4">Pledge</h1>
 									<p className="subtitle is-size-5">
-										This starter kit is target to developers who are looking
-										forward to use Bulma along with GatsbyJS. You can read more
-										in the <a href="#">documentation</a> on how to get started.
+										Users will be able to pledge a number of miles they will run during #OWM in order to support our cause. This functionality will be brought to the website by efforts from the people at <a href="https://oneworldhakcathon.org">One World Hackathon</a>.
 									</p>
 								</div>
 							</div>

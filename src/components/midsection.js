@@ -31,7 +31,7 @@ const Midsection = () => (
 								<div className="content">
 									<h1 className="title is-size-4">What is #OWM?</h1>
 									<p className="subtitle is-size-5">
-										#OWM is a marathon where teams of participants from around the world will combine their efforts to achieve a total of 26.2 miles (or 42.195km) over a four-day weekend.
+										#OWM is a virtual marathon where teams of participants from around the world will combine their efforts to achieve a total of 26.2 miles (or 42.195km) over a four-day weekend.
 									</p>
 								</div>
 							</div>
@@ -82,7 +82,7 @@ const Midsection = () => (
 								<div className="content">
 									<h1 className="title is-size-4">Teams</h1>
 									<p className="subtitle is-size-5">
-										Teams can have any number of members, and, because the one of the main objectives of the event is to connect people across borders and diverse backgrounds, we will encourage teams that represent multiple continents, countries and cultures. For example, schools and individuals in the Middle East can pair with peers in North America, Africa, Europe, Asia, and South America. 
+										Teams can have any number of members, and, because the one of the main objectives of the event is to connect people across borders and diverse backgrounds, we will encourage teams that represent multiple continents, countries and cultures. For example, schools and individuals in the Middle East can pair with peers in North America, Africa, Europe, Asia, and South America.
 									</p>
 								</div>
 							</div>

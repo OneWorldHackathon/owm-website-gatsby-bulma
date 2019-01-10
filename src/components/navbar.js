@@ -14,10 +14,10 @@ const Navbar = () => (
 				<div className="navbar-brand">
 					<a
 						className="navbar-item"
-						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
+						href="https://www.oneworldstrong.org"
 					>
-						
-						
+
+
 						<img src={ows} alt="Logo" className="logo" />
 					</a>
 				</div>

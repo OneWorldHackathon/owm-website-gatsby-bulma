@@ -101,7 +101,6 @@ const Midsection = () => (
 									<h1 className="title is-size-4">Connecting</h1>
 									<p className="subtitle is-size-5">
 										Using existing social media and the One World Marathon website, participants can organize, communicate and track the contributions of team members throughout their training and during marathon weekend. They can also use these channels to train together, communicate with one another, share their experiences and spread the marathon’s message of cross-cultural collaboration, interpersonal connection and teamwork.
-										<Emoji emoji="🤑" />
 									</p>
 								</div>
 							</div>
